@@ -1,0 +1,31 @@
+2026-11-19 15:34:41 | INFO     | ===== INICIO DE LA SIMULACIÓN =====
+2026-11-19 15:34:41 | INFO     | Cliente registrado: Laura Gómez (#1)
+2026-11-19 15:34:41 | ERROR    | Registro de cliente fallido: El correo 'pedro-correo.com' no tiene un formato válido.
+2026-11-19 15:34:41 | ERROR    | Registro de cliente fallido: Faltan datos del cliente: telefono
+2026-11-19 15:34:41 | INFO     | Cliente registrado: Carlos Mejía (#4)
+2026-11-19 15:34:41 | INFO     | Servicio creado: Sala Innovación (#5)
+2026-11-19 15:34:41 | INFO     | Servicio creado: Portátil Gamer (#6)
+2026-11-19 15:34:41 | INFO     | Servicio creado: Asesoría Python (#7)
+2026-11-19 15:34:41 | ERROR    | Creación de servicio fallida (ReservaSala): La tarifa por hora debe ser un número mayor que 0.
+2026-11-19 15:34:41 | INFO     | Reserva creada #9
+2026-11-19 15:34:41 | INFO     | Reserva #9 confirmada.
+2026-11-19 15:34:41 | INFO     | Reserva #9 procesada. Total: $142,800.00
+2026-11-19 15:34:41 | INFO     | Fin del intento de procesar la reserva #9.
+2026-11-19 15:34:41 | ERROR    | Reserva fallida: Duración incorrecta para la reserva. | causa: Las asesorías duran entre 1 y 6 horas.
+2026-11-19 15:34:41 | ERROR    | Reserva fallida: El servicio 'Portátil Gamer' no está disponible.
+2026-11-19 15:34:41 | INFO     | Reserva creada #12
+2026-11-19 15:34:41 | INFO     | Reserva #12 cancelada.
+2026-11-19 15:34:41 | ERROR    | Confirmar reserva cancelada falló: No se puede confirmar una reserva en estado CANCELADA.
+2026-11-19 15:34:41 | INFO     | Reserva creada #13
+2026-11-19 15:34:41 | ERROR    | Reserva #13 no se pudo procesar: Solo se pueden procesar reservas confirmadas.
+2026-11-19 15:34:41 | INFO     | Fin del intento de procesar la reserva #13.
+2026-11-19 15:34:41 | ERROR    | Procesar sin confirmar falló: Solo se pueden procesar reservas confirmadas.
+2026-11-19 15:34:41 | INFO     | Reserva #13 confirmada.
+2026-11-19 15:34:41 | ERROR    | Reserva #13 no se pudo procesar: El descuento debe estar entre 0 y 0.5 (50 %).
+2026-11-19 15:34:41 | INFO     | Fin del intento de procesar la reserva #13.
+2026-11-19 15:34:41 | ERROR    | Procesar con descuento del 90 % falló: El descuento debe estar entre 0 y 0.5 (50 %).
+2026-11-19 15:34:41 | INFO     | Reserva #13 procesada. Total: $192,780.00
+2026-11-19 15:34:41 | INFO     | Fin del intento de procesar la reserva #13.
+2026-11-19 15:34:41 | ERROR    | Registro de cliente fallido: Ya existe un cliente con el documento 1130456789.
+2026-11-19 15:34:41 | ERROR    | Reserva fallida: La reserva necesita un cliente válido.
+2026-11-19 15:34:41 | INFO     | ===== FIN DE LA SIMULACIÓN =====
